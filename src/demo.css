@@ -1,0 +1,14 @@
+.swiper-box {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+}
+.bg-red {
+	background-color: red;
+}
+.bg-yellow {
+	background-color: yellow;
+}
+.bg-black {
+	background-color: black;
+}

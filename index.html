@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>swiper-dome</title>
+	<link rel="stylesheet" href="src/swiper.css">
+	<link rel="stylesheet" href="src/demo.css">
+</head>
+<body>
+	<div class="swiper-box">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg-red">Slide 1</div>
+            <div class="swiper-slide bg-yellow">Slide 2</div>
+            <div class="swiper-slide bg-black">Slide 3</div>
+        </div>
+    </div>
+    <div class="swiper-box"></div>
+	
+	<script src="src/dom.js"></script>
+	<script src="src/swiper.js"></script>
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-box',{
+			direction: 'horizontal'
+		});
+		console.log(swiper);
+	</script>
+</body>
+</html>
